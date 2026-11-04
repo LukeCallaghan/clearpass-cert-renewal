@@ -1,0 +1,37 @@
+{
+    "ClearPass": {
+        "ApiBaseUrl": "https://clearpass.example.com",
+        "ApiClientIdEnv": "CPPM_CLIENT_ID",
+        "ApiClientSecretEnv": "CPPM_CLIENT_SECRET",
+        "DiscoverCluster": true,
+        "StandaloneUuid": "",
+        "AllowedNodeUuids": [],
+        "VerifySSL": true
+    },
+    "Delivery": {
+        "ListenAddress": "192.168.50.10",
+        "AdvertiseAddress": "192.168.50.10",
+        "Port": 18080,
+        "AllowedSourceIPs": [
+            "192.168.50.20"
+        ],
+        "RequestTimeoutSeconds": 90,
+        "StartupTimeoutSeconds": 15
+    },
+    "Deployment": {
+        "DryRun": true,
+        "ForceReplace": false,
+        "VerifyAfterImport": true,
+        "StopOnError": true
+    },
+    "Certificates": {
+        "HTTPS(RSA)": {
+            "PfxPath": "https.pfx",
+            "PfxPasswordEnv": "CPPM_HTTPS_PFX_PASSWORD"
+        },
+        "RADIUS": {
+            "PfxPath": "radius.pfx",
+            "PfxPasswordEnv": "CPPM_RADIUS_PFX_PASSWORD"
+        }
+    }
+}

@@ -1,0 +1,7 @@
+# Local credentials and certificate private keys
+secrets.json
+*.pfx
+*.p12
+*.key
+*.pem
+clearpass_ssh_key
