@@ -3,7 +3,7 @@
 Supports `HTTPS(RSA)`, `HTTPS(ECC)`, `RADIUS`, and `RadSec` certificate imports through the ClearPass REST API.
 
 ## Requirements
-  - Certify The Web 9Or another automated ACME certificate renewal)
+  - Certify The Web (or another automated ACME certificate renewal)
   - Powershell 5.1
 
 ## How to use
